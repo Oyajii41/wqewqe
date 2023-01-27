@@ -15,26 +15,6 @@ class SendSms():
         else:
             self.mail = ''.join(choice(ascii_lowercase) for i in range(19)) + "@gmail.com"
 
-            # dsmartgo.com.tr
-
-
-import requests
-from random import choice
-from string import ascii_lowercase
-from bs4 import BeautifulSoup
-from colorama import Fore, Style
-
-
-class SendSms():
-    adet = 0
-
-    def __init__(self, phone, mail):
-        self.phone = str(phone)
-        if len(mail) != 0:
-            self.mail = mail
-        else:
-            self.mail = ''.join(choice(ascii_lowercase) for i in range(19)) + "@gmail.com"
-
     # dsmartgo.com.tr
     def Dsmartgo(self):
         dsmartgo = requests.post("https://www.dsmartgo.com.tr/web/account/checkphonenumber", data={
