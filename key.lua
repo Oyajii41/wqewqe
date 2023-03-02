@@ -1,5 +1,3 @@
-{
 "mTAgLLFQJazwRWGh",
 "KMivllBpcqlYsTHX",
 "BUvFdRiXRqjRtcVc"
-}
